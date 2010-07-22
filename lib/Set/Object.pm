@@ -509,7 +509,7 @@ require AutoLoader;
 
 @EXPORT_OK = qw( ish_int is_int is_string is_double blessed reftype
 		 refaddr is_overloaded is_object is_key set weak_set );
-$VERSION = '1.27';
+$VERSION = '1.28';
 
 bootstrap Set::Object $VERSION;
 
@@ -958,7 +958,6 @@ sub STORABLE_freeze {
 sub STORABLE_thaw {
     #print Dump $_ foreach (@_);
 
-    $DB::single = 1;
     if ( $_[2] ) {
 	if ( $_[2] eq "v2" ) {
 	    @_ = (@_[0,1], "", @{ $_[3] });
