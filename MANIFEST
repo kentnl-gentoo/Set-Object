@@ -6,7 +6,6 @@ MANIFEST			This list of files
 Object.xs
 ppport.h
 README
-SIGNATURE
 t/ingy/arrayref.t
 t/misc/leaks.t
 t/misc/pod.t
