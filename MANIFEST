@@ -6,10 +6,14 @@ MANIFEST			This list of files
 Object.xs
 ppport.h
 README
+typemap
 t/ingy/arrayref.t
 t/misc/leaks.t
+t/misc/more_leaks.t
 t/misc/pod.t
 t/misc/pod_coverage.t
+t/misc/segfault.t
+t/misc/threads.t
 t/misc/undef.t
 t/object/abuse.t
 t/object/clear.t
@@ -49,4 +53,6 @@ t/scalar/storable.t
 t/scalar/symmdiff.t
 t/scalar/union.t
 t/scalar/unique.t
-META.yml                                 Module meta-data (added by MakeMaker)
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
+SIGNATURE                                Public-key signature (added by MakeMaker)
