@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.70.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 863e6d5e8dec0d0266a0b29459f1b28b077c6196 Changes.pod
+SHA1 f6f0718062a783eaa1e3e4c6121e73a5ad1b0eec Changes.pod
 SHA1 5173cdc86baaa3e3d8c8473f07fc183b5a3734e4 MANIFEST
-SHA1 dab450d5468b141d5b795a8c36d5506900aeb3d4 META.json
-SHA1 6381aaef4591f397366ffe81a1a636dbdf757cdc META.yml
+SHA1 393f6752ee34cc810f747d5464de73ad3bb9efff META.json
+SHA1 79fdd6d77a963e2e6d64cdfc3c0df9096d56fa1b META.yml
 SHA1 709085a7da718ccba1917bf3b8378200e9932129 Makefile.PL
 SHA1 a2761c62ceaf67fd1406c63bc486c9633245043f Object.xs
 SHA1 5e98a7ceabf3a58e98e9414ae731a997c44319dc README
-SHA1 46a84dbbe4808a29d145a7b398512a80778f9725 lib/Set/Object.pm
+SHA1 22198b9b4c2eb6ee64513d4b35e681a1584d34a7 lib/Set/Object.pm
 SHA1 3ee3d2b72d4130ed27f8d24a2625fa22895e52ca lib/Set/Object/Weak.pm
 SHA1 f04d25338c1e35bda69ac5eda0bc672e10ca5b6f ppport.h
 SHA1 213b597a69c1f909d585a14a6a094a25c3e684af t/ingy/arrayref.t
@@ -72,9 +72,9 @@ SHA1 908f3fedbcff83d7ecca66c0b4ef99aa5bd69481 t/scalar/union.t
 SHA1 31d6d80a33dd2da72ab10b51bb272c24ad556f89 t/scalar/unique.t
 SHA1 66dca8177780e09a12de4970c27820624ef46249 typemap
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
+Version: GnuPG v1.4.15 (Darwin)
 
-iEYEARECAAYFAlGRTkwACgkQmm2SYo/9yUKDsACgiqOhkBGAlADNh814vhxzkZch
-OxUAn0iDcUEuaXz19saGEHXHUdBIlH9b
-=K0EZ
+iEYEARECAAYFAlKrxKIACgkQmm2SYo/9yULOCQCghfiRCntlc3pZInpzYuK97hMj
+SrYAn0nmXo5WgUAOelYTCJaPMgr0j1W5
+=hRUj
 -----END PGP SIGNATURE-----
