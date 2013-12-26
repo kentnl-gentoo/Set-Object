@@ -4,7 +4,7 @@
       "Jean-Louis Leroy and Sam Vilain"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.82, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.82, CPAN::Meta::Converter version 2.132140",
    "license" : [
       "artistic_1"
    ],
@@ -50,5 +50,5 @@
          "url" : "git://github.com/rurban/Set-Object.git"
       }
    },
-   "version" : "1.32"
+   "version" : "1.34"
 }
