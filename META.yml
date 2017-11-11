@@ -26,5 +26,5 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/rurban/Set-Object.git
-version: '1.37'
+version: '1.38'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
